@@ -40,17 +40,15 @@ body {
 button {
     padding:15px;
     background-color:black;
-    border-radius:20px;
+    border-radius:10px;
     border:none;
     display:block;
     margin:auto;
+    color:white;
     margin-bottom:30px;
     transition-duration:0.7s;
 }
 
-button:hover {
-    transform:scale(1.1);
-}
 button a {
     text-decoration:none;
     color:white;
