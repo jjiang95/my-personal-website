@@ -66,14 +66,13 @@ h3 {
 #links a img{
     height:35px;
     transition-duration:0.5s;
-    opacity:60%;
     padding-left:25px;
     padding-right:25px;
     padding-top:8px;
 }
 
 #links a img:hover {
-    opacity:100%;
+    opacity:60%;
     transform:scale(1.1);
 }
 
@@ -81,4 +80,37 @@ h3 {
     padding-left:20px;
     padding-right:20px;
     text-align:center;
+}
+
+#about {
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:90px;
+    margin-bottom:90px;
+}
+
+#about #img {
+    text-align:right;    
+    margin-left:15px;
+}
+
+#about #img img {
+    height:550px;
+    border-radius:20px;
+    border-style:solid;
+    border-width:5px;
+}
+
+#about #text {
+    text-align:justify;
+    font-weight:bold;
+    width:400px;
+    font-size:1.1em;
+}
+
+#about #text p {
+    margin:0;
+    padding-top:0;
+    padding-right:15px;
 }
