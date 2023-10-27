@@ -47,13 +47,18 @@ button {
     color:white;
     margin-bottom:30px;
     transition-duration:0.7s;
-}
-
-button a {
-    text-decoration:none;
-    color:white;
     font-weight:bold;
     text-align:center;
+}
+
+button:hover {
+    color:black;
+    background-color:white;
+    cursor:pointer;
+}
+
+a {
+    text-decoration:none;
 }
 
 #preview {

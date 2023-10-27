@@ -51,13 +51,18 @@ body {
     border-width:4px;
     border-radius:20px;
     width:300px;
+    padding:20px;
     height:400px;
-    padding:25px;
     margin:20px;
+    overflow:hidden;
 }
 
 p {
     margin-bottom:30px;
+}
+
+h2 {
+    text-align:center;
 }
 
 span {
@@ -89,4 +94,9 @@ button {
 button:hover {
     background-color: white;
     color:black;
+    cursor:pointer;
+}
+
+a {
+    text-decoration:none;
 }
