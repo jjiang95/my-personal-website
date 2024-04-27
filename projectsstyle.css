@@ -1,5 +1,6 @@
 body {
-    background-color:white;
+    background-color:black;
+    color:white;
     margin:0;
     padding:0;
     font-family:'OpenSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -25,31 +26,33 @@ body {
 }
 
 #menu a {
-    font-size:14px;
+    font-size:16px;
     padding:20px;
-    color:black;
+    color:white;
     font-weight:bold;
     text-decoration:none;
     transition-duration: 1s; 
 }
 
 #menu a:hover {
-    font-size:16px;
+    font-size:18px;
 }
 
 #container {
     margin:auto;
-    width:70%;
-    padding:50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 20px;
 }
 
 .project-card {
-    padding:20px;
+    padding:40px;
     margin:10px;
 }
 
 h2 {
     font-size: 2.8em;
+    color:rgb(50, 218, 132);
 }
 
 p {
@@ -60,36 +63,43 @@ p {
 span {
     display:inline-block;
     margin-bottom:5px;
-    background-color: rgb(196, 196, 196);
     border-style:solid;
     border-width:3px;
     border-radius:10px;
-    border-color:rgb(66, 66, 66);
+    border-color:rgb(50, 218, 132);
     font-weight:bold;
     font-size:0.8em;
-    color:rgb(66, 66, 66);
+    color:white;
     padding:7px;
 }
 
 button {
     padding:15px;
-    background-color:black;
+    background-color:rgb(50, 218, 132);
+    color:white;
     border-radius:10px;
     border:none;
     margin-top:15px;
     margin-right:10px;
     transition-duration:0.7s;
-    color:white;
     font-weight:bold;
     font-size:1em;
 }
 
 button:hover {
-    background-color: white;
-    color:black;
+    color: black;
+    background-color:white;
     cursor:pointer;
 }
 
 a {
     text-decoration:none;
+}
+
+img {
+    max-width:100%;
+    margin-bottom:10px;
+    border-style:solid;
+    border-color:rgb(50, 218, 132);
+    border-radius:10px;
 }
